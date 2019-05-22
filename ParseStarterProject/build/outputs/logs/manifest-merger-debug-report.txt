@@ -1,0 +1,667 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
+INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
+INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
+INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
+MERGED from [com.google.android.gms:play-services:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/6f1fde869f9b348bd70df89577e0948e/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/9a44cce14b924b2a7b319faad7e46703/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/e5d8b174a65385b2bcdc3bdbdcb5a6f4/AndroidManifest.xml:16:1-20:12
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/f7e95cf7301030265099d77885270e52/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/16b6c461e91b68d48bf20c438a6186df/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/93cec1d369bb32b884d61abdd5337ee9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/76c15fab6af95974077c5ce62d75688c/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/66cff92155f8336c4b921917d850983f/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/b7d194327851f7b363e7028530940fd3/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/241457aecd68e501d3e1b03f6e788d37/AndroidManifest.xml:16:1-28:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/832072ae0a61c0325e15d153af2149df/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/1aa9c786e22ccb1f105cb0b9d49ef988/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.4.0.aar/4bed9f7556c4671b760c8b7e18ca218b/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/8f1bc61359adce7056ff17b9fda8421f/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-tagmanager:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-9.4.0.aar/5023dd9c02f39a4409be8fcc2e774d33/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/b620d53f4fcb46f728a9f9fd29b021ae/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:16:1-31:12
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/5229bfe27e6c72af56f6e636bf981844/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-auth-base:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.4.0.aar/750d337af9c6143960c8f404e8e4e36d/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.4.0.aar/3f04588fb2139476101d0a2b9970c1fc/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/e8410f0a2334080da7a73b07f9227649/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/e01d8f3dfdff0ef7c59f30cee4d0434c/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-games-9.4.0.aar/2f0d31713eb22ed28178e6ce8b595555/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.4.0.aar/beba718a116223c30579302e35b7547c/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.4.0.aar/7063e9e5f4df73323897af3114763994/AndroidManifest.xml:16:1-22:12
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.4.0.aar/68824f425f331779bf4261b06483de67/AndroidManifest.xml:16:1-22:12
+MERGED from [com.google.firebase:firebase-auth-module:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.4.0.aar/995bb3bcac22278624bcbfa8f12f79b2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-database-9.4.0.aar/bf686659ff58d5701ea2082f8685697d/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-connection:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.4.0.aar/b8eecebb4c60d19587e7d4ba2fcaa1ef/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.4.0.aar/dc0ea725223cb63ced7ce0ce24ce946c/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.4.0.aar/69bba405db6cabe852d4d0924481fc59/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.4.0.aar/321a34314fa32e500f6f6ad2f336f3c7/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/58e9766142a59c3c66ca058c2c2a7a30/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.4.0.aar/b237f0614b19a328150ffa1d2d943a8a/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.4.0.aar/8b7e937999bc609adbcc93b26bca0441/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4f1e73b9cfa081451b66d8047cd89e9d/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/86411632b07e4528aae78f23d68d2300/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/0ee0ed047ae92ae3b6fde933452b9a55/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.4.0.aar/2857e075783dc3bf8707c452272e019b/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/d700c76f92876639ee34c73ca5bf394b/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.4.0.aar/a990b6ac6cf78d9e45deb65e46e372f2/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.4.0.aar/d7bfcf8fa001a2232bcf50f7b48acccf/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.4.0.aar/06ba230ed1d80c920620f68992d4a299/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/a701381010f2434e4ecc932df15d7595/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/26c362855968e58e6ef71a161dbcada0/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:16:1-39:12
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:16:1-42:12
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/eb8f7ea32d97fd1074a0fd1a135509a9/AndroidManifest.xml:16:1-42:12
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:16:1-60:12
+MERGED from [com.google.firebase:firebase-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/5d0f9d868059a16fd99b85cfa5f94f5f/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.4.0.aar/96180e1f4b2d668c0b94fa638d9b6d54/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.4.0.aar/95077031aea6762611102a223c2782e3/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/8d862836a81d3d710fea718771afee15/AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/53a60208938ac49ce82be2a8b0e28ca7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/b19034de93e9b6e5cdcf4c76603915a3/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
+INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
+INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
+	package
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
+		INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
+		INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
+		INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/241457aecd68e501d3e1b03f6e788d37/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/241457aecd68e501d3e1b03f6e788d37/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/8f1bc61359adce7056ff17b9fda8421f/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/8f1bc61359adce7056ff17b9fda8421f/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/b620d53f4fcb46f728a9f9fd29b021ae/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/b620d53f4fcb46f728a9f9fd29b021ae/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:19:5-67
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/e01d8f3dfdff0ef7c59f30cee4d0434c/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/e01d8f3dfdff0ef7c59f30cee4d0434c/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/58e9766142a59c3c66ca058c2c2a7a30/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/58e9766142a59c3c66ca058c2c2a7a30/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4f1e73b9cfa081451b66d8047cd89e9d/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4f1e73b9cfa081451b66d8047cd89e9d/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/eb8f7ea32d97fd1074a0fd1a135509a9/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/eb8f7ea32d97fd1074a0fd1a135509a9/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/241457aecd68e501d3e1b03f6e788d37/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/241457aecd68e501d3e1b03f6e788d37/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/8f1bc61359adce7056ff17b9fda8421f/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/8f1bc61359adce7056ff17b9fda8421f/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/b620d53f4fcb46f728a9f9fd29b021ae/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/b620d53f4fcb46f728a9f9fd29b021ae/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/0ee0ed047ae92ae3b6fde933452b9a55/AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/0ee0ed047ae92ae3b6fde933452b9a55/AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/eb8f7ea32d97fd1074a0fd1a135509a9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/eb8f7ea32d97fd1074a0fd1a135509a9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:20:5-79
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:14:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:15:22-76
+application
+ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:17:5-52:19
+MERGED from [com.google.android.gms:play-services:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/6f1fde869f9b348bd70df89577e0948e/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/6f1fde869f9b348bd70df89577e0948e/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/9a44cce14b924b2a7b319faad7e46703/AndroidManifest.xml:5:5-9:19
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/9a44cce14b924b2a7b319faad7e46703/AndroidManifest.xml:5:5-9:19
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/e5d8b174a65385b2bcdc3bdbdcb5a6f4/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/e5d8b174a65385b2bcdc3bdbdcb5a6f4/AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/f7e95cf7301030265099d77885270e52/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/f7e95cf7301030265099d77885270e52/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/16b6c461e91b68d48bf20c438a6186df/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/16b6c461e91b68d48bf20c438a6186df/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/76c15fab6af95974077c5ce62d75688c/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/76c15fab6af95974077c5ce62d75688c/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/66cff92155f8336c4b921917d850983f/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/66cff92155f8336c4b921917d850983f/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/241457aecd68e501d3e1b03f6e788d37/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/241457aecd68e501d3e1b03f6e788d37/AndroidManifest.xml:27:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/832072ae0a61c0325e15d153af2149df/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/832072ae0a61c0325e15d153af2149df/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/1aa9c786e22ccb1f105cb0b9d49ef988/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/1aa9c786e22ccb1f105cb0b9d49ef988/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/8f1bc61359adce7056ff17b9fda8421f/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/8f1bc61359adce7056ff17b9fda8421f/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/b620d53f4fcb46f728a9f9fd29b021ae/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/b620d53f4fcb46f728a9f9fd29b021ae/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/5229bfe27e6c72af56f6e636bf981844/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/5229bfe27e6c72af56f6e636bf981844/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.4.0.aar/3f04588fb2139476101d0a2b9970c1fc/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.4.0.aar/3f04588fb2139476101d0a2b9970c1fc/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/e8410f0a2334080da7a73b07f9227649/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/e8410f0a2334080da7a73b07f9227649/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/e01d8f3dfdff0ef7c59f30cee4d0434c/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/e01d8f3dfdff0ef7c59f30cee4d0434c/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-games-9.4.0.aar/2f0d31713eb22ed28178e6ce8b595555/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-games-9.4.0.aar/2f0d31713eb22ed28178e6ce8b595555/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.4.0.aar/beba718a116223c30579302e35b7547c/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.4.0.aar/beba718a116223c30579302e35b7547c/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.4.0.aar/7063e9e5f4df73323897af3114763994/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.4.0.aar/7063e9e5f4df73323897af3114763994/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.4.0.aar/68824f425f331779bf4261b06483de67/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.4.0.aar/68824f425f331779bf4261b06483de67/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.4.0.aar/321a34314fa32e500f6f6ad2f336f3c7/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.4.0.aar/321a34314fa32e500f6f6ad2f336f3c7/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/58e9766142a59c3c66ca058c2c2a7a30/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/58e9766142a59c3c66ca058c2c2a7a30/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.4.0.aar/b237f0614b19a328150ffa1d2d943a8a/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.4.0.aar/b237f0614b19a328150ffa1d2d943a8a/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.4.0.aar/8b7e937999bc609adbcc93b26bca0441/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.4.0.aar/8b7e937999bc609adbcc93b26bca0441/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4f1e73b9cfa081451b66d8047cd89e9d/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4f1e73b9cfa081451b66d8047cd89e9d/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/86411632b07e4528aae78f23d68d2300/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/86411632b07e4528aae78f23d68d2300/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/0ee0ed047ae92ae3b6fde933452b9a55/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/0ee0ed047ae92ae3b6fde933452b9a55/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.4.0.aar/2857e075783dc3bf8707c452272e019b/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.4.0.aar/2857e075783dc3bf8707c452272e019b/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/d700c76f92876639ee34c73ca5bf394b/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/d700c76f92876639ee34c73ca5bf394b/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.4.0.aar/a990b6ac6cf78d9e45deb65e46e372f2/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.4.0.aar/a990b6ac6cf78d9e45deb65e46e372f2/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.4.0.aar/d7bfcf8fa001a2232bcf50f7b48acccf/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.4.0.aar/d7bfcf8fa001a2232bcf50f7b48acccf/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.4.0.aar/06ba230ed1d80c920620f68992d4a299/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.4.0.aar/06ba230ed1d80c920620f68992d4a299/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/a701381010f2434e4ecc932df15d7595/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/a701381010f2434e4ecc932df15d7595/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/26c362855968e58e6ef71a161dbcada0/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/26c362855968e58e6ef71a161dbcada0/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:24:5-38:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:24:5-38:19
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/eb8f7ea32d97fd1074a0fd1a135509a9/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/eb8f7ea32d97fd1074a0fd1a135509a9/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/5d0f9d868059a16fd99b85cfa5f94f5f/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.firebase:firebase-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/5d0f9d868059a16fd99b85cfa5f94f5f/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.4.0.aar/96180e1f4b2d668c0b94fa638d9b6d54/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.4.0.aar/96180e1f4b2d668c0b94fa638d9b6d54/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.4.0.aar/95077031aea6762611102a223c2782e3/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.4.0.aar/95077031aea6762611102a223c2782e3/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/8d862836a81d3d710fea718771afee15/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/8d862836a81d3d710fea718771afee15/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/53a60208938ac49ce82be2a8b0e28ca7/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/53a60208938ac49ce82be2a8b0e28ca7/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/b19034de93e9b6e5cdcf4c76603915a3/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/b19034de93e9b6e5cdcf4c76603915a3/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:22:9-40
+	android:name
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:18:9-43
+activity#com.parse.starter.MainActivity
+ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:23:9-31:20
+	android:label
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:25:13-45
+	android:name
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:24:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:29:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:41:9-43:55
+	android:value
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:43:13-52
+	android:name
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:42:13-58
+activity#com.parse.starter.RiderActivity
+ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:45:9-47:60
+	android:label
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:47:13-57
+	android:name
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:46:13-42
+activity#com.parse.starter.RequestsList
+ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:48:9-50
+	android:name
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:48:19-47
+activity#com.parse.starter.DriverView
+ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:49:9-51:75
+	android:label
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:51:13-63
+	android:name
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml:50:13-39
+uses-sdk
+INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/6f1fde869f9b348bd70df89577e0948e/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/6f1fde869f9b348bd70df89577e0948e/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/9a44cce14b924b2a7b319faad7e46703/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/9a44cce14b924b2a7b319faad7e46703/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/e5d8b174a65385b2bcdc3bdbdcb5a6f4/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/e5d8b174a65385b2bcdc3bdbdcb5a6f4/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/f7e95cf7301030265099d77885270e52/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/f7e95cf7301030265099d77885270e52/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/16b6c461e91b68d48bf20c438a6186df/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/16b6c461e91b68d48bf20c438a6186df/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:multidex:1.0.2] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/93cec1d369bb32b884d61abdd5337ee9/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/93cec1d369bb32b884d61abdd5337ee9/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/76c15fab6af95974077c5ce62d75688c/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/76c15fab6af95974077c5ce62d75688c/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/66cff92155f8336c4b921917d850983f/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/66cff92155f8336c4b921917d850983f/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/b7d194327851f7b363e7028530940fd3/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/b7d194327851f7b363e7028530940fd3/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/241457aecd68e501d3e1b03f6e788d37/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/241457aecd68e501d3e1b03f6e788d37/AndroidManifest.xml:26:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/832072ae0a61c0325e15d153af2149df/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/832072ae0a61c0325e15d153af2149df/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/1aa9c786e22ccb1f105cb0b9d49ef988/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/1aa9c786e22ccb1f105cb0b9d49ef988/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.4.0.aar/4bed9f7556c4671b760c8b7e18ca218b/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.4.0.aar/4bed9f7556c4671b760c8b7e18ca218b/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/8f1bc61359adce7056ff17b9fda8421f/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/8f1bc61359adce7056ff17b9fda8421f/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-9.4.0.aar/5023dd9c02f39a4409be8fcc2e774d33/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-9.4.0.aar/5023dd9c02f39a4409be8fcc2e774d33/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/b620d53f4fcb46f728a9f9fd29b021ae/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/b620d53f4fcb46f728a9f9fd29b021ae/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/5229bfe27e6c72af56f6e636bf981844/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/5229bfe27e6c72af56f6e636bf981844/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.4.0.aar/750d337af9c6143960c8f404e8e4e36d/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.4.0.aar/750d337af9c6143960c8f404e8e4e36d/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.4.0.aar/3f04588fb2139476101d0a2b9970c1fc/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.4.0.aar/3f04588fb2139476101d0a2b9970c1fc/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/e8410f0a2334080da7a73b07f9227649/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/e8410f0a2334080da7a73b07f9227649/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/e01d8f3dfdff0ef7c59f30cee4d0434c/AndroidManifest.xml:22:5-42
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/e01d8f3dfdff0ef7c59f30cee4d0434c/AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-games-9.4.0.aar/2f0d31713eb22ed28178e6ce8b595555/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-games-9.4.0.aar/2f0d31713eb22ed28178e6ce8b595555/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.4.0.aar/beba718a116223c30579302e35b7547c/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.4.0.aar/beba718a116223c30579302e35b7547c/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.4.0.aar/7063e9e5f4df73323897af3114763994/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.4.0.aar/7063e9e5f4df73323897af3114763994/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.4.0.aar/68824f425f331779bf4261b06483de67/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.4.0.aar/68824f425f331779bf4261b06483de67/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.4.0.aar/995bb3bcac22278624bcbfa8f12f79b2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.4.0.aar/995bb3bcac22278624bcbfa8f12f79b2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-database-9.4.0.aar/bf686659ff58d5701ea2082f8685697d/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-database-9.4.0.aar/bf686659ff58d5701ea2082f8685697d/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.4.0.aar/b8eecebb4c60d19587e7d4ba2fcaa1ef/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.4.0.aar/b8eecebb4c60d19587e7d4ba2fcaa1ef/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.4.0.aar/dc0ea725223cb63ced7ce0ce24ce946c/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.4.0.aar/dc0ea725223cb63ced7ce0ce24ce946c/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.4.0.aar/69bba405db6cabe852d4d0924481fc59/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.4.0.aar/69bba405db6cabe852d4d0924481fc59/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.4.0.aar/321a34314fa32e500f6f6ad2f336f3c7/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.4.0.aar/321a34314fa32e500f6f6ad2f336f3c7/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/58e9766142a59c3c66ca058c2c2a7a30/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/58e9766142a59c3c66ca058c2c2a7a30/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.4.0.aar/b237f0614b19a328150ffa1d2d943a8a/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.4.0.aar/b237f0614b19a328150ffa1d2d943a8a/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.4.0.aar/8b7e937999bc609adbcc93b26bca0441/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.4.0.aar/8b7e937999bc609adbcc93b26bca0441/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4f1e73b9cfa081451b66d8047cd89e9d/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4f1e73b9cfa081451b66d8047cd89e9d/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/86411632b07e4528aae78f23d68d2300/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/86411632b07e4528aae78f23d68d2300/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/0ee0ed047ae92ae3b6fde933452b9a55/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/0ee0ed047ae92ae3b6fde933452b9a55/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.4.0.aar/2857e075783dc3bf8707c452272e019b/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.4.0.aar/2857e075783dc3bf8707c452272e019b/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/d700c76f92876639ee34c73ca5bf394b/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/d700c76f92876639ee34c73ca5bf394b/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.4.0.aar/a990b6ac6cf78d9e45deb65e46e372f2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.4.0.aar/a990b6ac6cf78d9e45deb65e46e372f2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.4.0.aar/d7bfcf8fa001a2232bcf50f7b48acccf/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.4.0.aar/d7bfcf8fa001a2232bcf50f7b48acccf/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.4.0.aar/06ba230ed1d80c920620f68992d4a299/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.4.0.aar/06ba230ed1d80c920620f68992d4a299/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/a701381010f2434e4ecc932df15d7595/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/a701381010f2434e4ecc932df15d7595/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/26c362855968e58e6ef71a161dbcada0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/26c362855968e58e6ef71a161dbcada0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/eb8f7ea32d97fd1074a0fd1a135509a9/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/eb8f7ea32d97fd1074a0fd1a135509a9/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/5d0f9d868059a16fd99b85cfa5f94f5f/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/5d0f9d868059a16fd99b85cfa5f94f5f/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.4.0.aar/96180e1f4b2d668c0b94fa638d9b6d54/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.4.0.aar/96180e1f4b2d668c0b94fa638d9b6d54/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.4.0.aar/95077031aea6762611102a223c2782e3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.4.0.aar/95077031aea6762611102a223c2782e3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/8d862836a81d3d710fea718771afee15/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/8d862836a81d3d710fea718771afee15/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/53a60208938ac49ce82be2a8b0e28ca7/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/53a60208938ac49ce82be2a8b0e28ca7/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/b19034de93e9b6e5cdcf4c76603915a3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/b19034de93e9b6e5cdcf4c76603915a3/AndroidManifest.xml:20:5-43
+INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/16b6c461e91b68d48bf20c438a6186df/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/ethancox/Documents/Android/Uber/ParseStarterProject/src/main/AndroidManifest.xml
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/9a44cce14b924b2a7b319faad7e46703/AndroidManifest.xml:6:9-100
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/9a44cce14b924b2a7b319faad7e46703/AndroidManifest.xml:6:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/9a44cce14b924b2a7b319faad7e46703/AndroidManifest.xml:7:9-104
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/9a44cce14b924b2a7b319faad7e46703/AndroidManifest.xml:7:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/9a44cce14b924b2a7b319faad7e46703/AndroidManifest.xml:8:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/9a44cce14b924b2a7b319faad7e46703/AndroidManifest.xml:8:18-90
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/241457aecd68e501d3e1b03f6e788d37/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/241457aecd68e501d3e1b03f6e788d37/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/241457aecd68e501d3e1b03f6e788d37/AndroidManifest.xml:24:8-31
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/316524d8613d4e989960a2ca38bf45b4/AndroidManifest.xml:30:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/8f1bc61359adce7056ff17b9fda8421f/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/b620d53f4fcb46f728a9f9fd29b021ae/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/b620d53f4fcb46f728a9f9fd29b021ae/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/eb8f7ea32d97fd1074a0fd1a135509a9/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/eb8f7ea32d97fd1074a0fd1a135509a9/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:22:5-68
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/8f1bc61359adce7056ff17b9fda8421f/AndroidManifest.xml:25:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:22:17-48
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:26:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/4763c9b86bd2b8f9c52134adbbb44c06/AndroidManifest.xml:27:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/5229bfe27e6c72af56f6e636bf981844/AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/5229bfe27e6c72af56f6e636bf981844/AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/5229bfe27e6c72af56f6e636bf981844/AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/5229bfe27e6c72af56f6e636bf981844/AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/5229bfe27e6c72af56f6e636bf981844/AndroidManifest.xml:21:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/5229bfe27e6c72af56f6e636bf981844/AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/5229bfe27e6c72af56f6e636bf981844/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/5229bfe27e6c72af56f6e636bf981844/AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/5229bfe27e6c72af56f6e636bf981844/AndroidManifest.xml:29:13-58
+service#com.google.firebase.crash.internal.service.FirebaseCrashReceiverService
+ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/e01d8f3dfdff0ef7c59f30cee4d0434c/AndroidManifest.xml:26:9-27:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/e01d8f3dfdff0ef7c59f30cee4d0434c/AndroidManifest.xml:27:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/e01d8f3dfdff0ef7c59f30cee4d0434c/AndroidManifest.xml:26:18-79
+service#com.google.firebase.crash.internal.service.FirebaseCrashSenderService
+ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/e01d8f3dfdff0ef7c59f30cee4d0434c/AndroidManifest.xml:29:9-30:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/e01d8f3dfdff0ef7c59f30cee4d0434c/AndroidManifest.xml:30:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/e01d8f3dfdff0ef7c59f30cee4d0434c/AndroidManifest.xml:29:18-77
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/58e9766142a59c3c66ca058c2c2a7a30/AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4f1e73b9cfa081451b66d8047cd89e9d/AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4f1e73b9cfa081451b66d8047cd89e9d/AndroidManifest.xml:21:5-82
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/58e9766142a59c3c66ca058c2c2a7a30/AndroidManifest.xml:21:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/a701381010f2434e4ecc932df15d7595/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/a701381010f2434e4ecc932df15d7595/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/a701381010f2434e4ecc932df15d7595/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/a701381010f2434e4ecc932df15d7595/AndroidManifest.xml:20:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/26c362855968e58e6ef71a161dbcada0/AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/26c362855968e58e6ef71a161dbcada0/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/26c362855968e58e6ef71a161dbcada0/AndroidManifest.xml:25:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/26c362855968e58e6ef71a161dbcada0/AndroidManifest.xml:27:13-29:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/26c362855968e58e6ef71a161dbcada0/AndroidManifest.xml:27:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/26c362855968e58e6ef71a161dbcada0/AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/26c362855968e58e6ef71a161dbcada0/AndroidManifest.xml:28:25-75
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:25:9-27:42
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:27:17-39
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:26:17-41
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:25:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:28:9-37:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:29:13-87
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.${applicationId}
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:31:13-36:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.com.parse.starter
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:31:13-36:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:32:17-72
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:32:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:33:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5b74436b2509d96a6c0bc9f3bfa823ba/AndroidManifest.xml:35:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/eb8f7ea32d97fd1074a0fd1a135509a9/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/eb8f7ea32d97fd1074a0fd1a135509a9/AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:29:11-83
+intent-filter#action:name:com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/eb8f7ea32d97fd1074a0fd1a135509a9/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/eb8f7ea32d97fd1074a0fd1a135509a9/AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/12664e69563091c62ce1f6277570fa4f/AndroidManifest.xml:37:11-82
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:25:17-71
+permission#com.parse.starter.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:28:22-76
+uses-permission#com.parse.starter.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:33:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:36:13-40:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:com.parse.starter
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:39:27-58
+category#com.parse.starter
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:52:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/a17cfc439cde220db3e968499e2a4259/AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/5d0f9d868059a16fd99b85cfa5f94f5f/AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/5d0f9d868059a16fd99b85cfa5f94f5f/AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/5d0f9d868059a16fd99b85cfa5f94f5f/AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/5d0f9d868059a16fd99b85cfa5f94f5f/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/5d0f9d868059a16fd99b85cfa5f94f5f/AndroidManifest.xml:9:13-58
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/8d862836a81d3d710fea718771afee15/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/8d862836a81d3d710fea718771afee15/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] /Users/ethancox/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/8d862836a81d3d710fea718771afee15/AndroidManifest.xml:22:13-58
