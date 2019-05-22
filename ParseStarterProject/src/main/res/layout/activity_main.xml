@@ -50,4 +50,14 @@
         android:layout_marginBottom="137dp"
         android:onClick="getStarted"
         android:text="Get Started" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:text="Test Update"
+        android:textSize="18sp" />
 </RelativeLayout>
